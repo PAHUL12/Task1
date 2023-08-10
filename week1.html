@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta tags for character encoding and responsive viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Page title -->
+    <title>Glamify</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Inline styles for consistent styling -->
+    <style>
+      /* Global styling for the entire page */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+
+      /* Styling for the header section */
+      header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+      }
+
+      /* Styling for the navigation bar */
+      nav {
+        background-color: #444;
+        color: white;
+        text-align: center;
+        padding: 10px;
+      }
+
+      /* Styling for navigation links and hover effect */
+      nav a {
+        text-decoration: none;
+        color: white;
+        padding: 5px 10px;
+      }
+
+      nav a:hover {
+        background-color: #555;
+        border-radius: 5px;
+      }
+
+      /* Styling for content containers */
+      .container {
+        margin: 20px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      /* Styling for sections within containers */
+      .section {
+        padding: 20px;
+        text-align: center;
+      }
+
+      /* Styling for the footer section */
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+
+      /* Styling for the contact form */
+      .contact-form {
+        text-align: center;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+      }
+
+      /* Styling for form labels */
+      .contact-form label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+
+      /* Styling for form inputs and textareas */
+      .contact-form input[type="text"],
+      .contact-form textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+
+      /* Styling for form submit button and hover effect */
+      .contact-form button {
+        background-color: #333;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .contact-form button:hover {
+        background-color: #555;
+      }
+
+      /* Styling for the services table */
+      .services-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px auto;
+      }
+
+      .services-table th,
+      .services-table td {
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: left;
+      }
+
+      .services-table th {
+        background-color: #555;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body
+    style="
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    "
+  >
+    <!-- Header section with website title -->
+    <header
+      style="
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+      "
+    >
+      <h1>Welcome to Glamify!</h1>
+    </header>
+
+    <!-- Navigation bar with links to different sections -->
+    <nav
+      style="
+        background-color: #444;
+        color: white;
+        text-align: center;
+        padding: 10px;
+      "
+    >
+      <a href="#" style="text-decoration: none; color: white; padding: 5px 10px"
+        >Home</a
+      >
+      <a href="#" style="text-decoration: none; color: white; padding: 5px 10px"
+        >About</a
+      >
+      <a href="#" style="text-decoration: none; color: white; padding: 5px 10px"
+        >Services</a
+      >
+      <a href="#" style="text-decoration: none; color: white; padding: 5px 10px"
+        >Contact</a
+      >
+    </nav>
+
+    <!-- Image showcasing fashion -->
+    <img
+      src="https://agentestudio.com/uploads/post/image/91/main_fashion-website-design-cover.jpg"
+      style="
+        border: 2px solid #ccc;
+        padding: 10px;
+        max-width: 100%;
+        height: auto;
+      "
+    />
+
+    <!-- Container for the "About Us" section -->
+    <div
+      class="container"
+      style="
+        margin: 20px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      "
+    >
+      <!-- Section describing the purpose of the website -->
+      <div class="section" style="padding: 20px; text-align: center">
+        <h2>About Us</h2>
+        <p>
+          Embark on a journey with us, where passion for fashion meets
+          innovation. Our fashion sanctuary is a blend of creativity and
+          elegance, offering handpicked ensembles that inspire confidence. We're
+          dedicated to empowering your style choices and helping you make a
+          statement that's uniquely yours. Welcome to our fashion family.
+        </p>
+      </div>
+
+      <!-- Section detailing the services offered -->
+      <div class="section" style="padding: 20px; text-align: center">
+        <h2>Our Services</h2>
+        <p>Experience personalized elegance with our range of services:</p>
+        <table class="services-table">
+          <tr>
+            <th>Service</th>
+            <th>Description</th>
+          </tr>
+          <!-- Rows of services and their descriptions -->
+          <tr>
+            <td>Personal Styling</td>
+            <td>Tailored advice to accentuate your individuality.</td>
+          </tr>
+          <tr>
+            <td>Trendspotting</td>
+            <td>Stay ahead with insights into the latest fashion trends.</td>
+          </tr>
+          <tr>
+            <td>Wardrobe Consultation</td>
+            <td>Maximize your closet's potential for effortless outfits.</td>
+          </tr>
+          <tr>
+            <td>Exclusive Collections</td>
+            <td>Discover limited editions for a distinctive look.</td>
+          </tr>
+          <tr>
+            <td>Special Occasion Attire</td>
+            <td>Find the perfect ensemble for every memorable moment.</td>
+          </tr>
+        </table>
+        <p>Elevate your fashion journey with us.</p>
+      </div>
+    </div>
+
+    <!-- Section for user contact form -->
+    <div class="section" style="padding: 20px; text-align: center">
+      <h2>Contact Us</h2>
+      <div
+        class="contact-form"
+        style="
+          text-align: center;
+          padding: 20px;
+          background-color: #f9f9f9;
+          border-radius: 5px;
+        "
+      >
+        <!-- Form for users to submit inquiries -->
+        <form action="#" method="post">
+          <label
+            for="name"
+            style="display: block; margin-bottom: 10px; font-weight: bold"
+            >Your Name:</label
+          >
+          <!-- Input field for user's name -->
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            style="
+              width: 100%;
+              padding: 8px;
+              margin-bottom: 15px;
+              border: 1px solid #ccc;
+              border-radius: 3px;
+            "
+          />
+          <!-- Input field for user's email -->
+          <label for="email">Your Email:</label>
+          <input type="text" id="email" name="email" required />
+          <!-- Textarea for user's message -->
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <!-- Button to submit the form -->
+          <button
+            type="submit"
+            style="
+              background-color: #333;
+              color: white;
+              border: none;
+              padding: 10px 20px;
+              border-radius: 5px;
+              cursor: pointer;
+            "
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
